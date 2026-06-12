@@ -39,8 +39,8 @@ export async function execute(interaction) {
 
   try {
     await target.send(
-      `**You've been __BANNED__ from all **IMPERIUM** servers.**\n\n` +
-      `Reason: **"${reason}"**\n\n` +
+      `You've been __BANNED__ from all **IMPERIUM** servers.\n\n` +
+      `Reason: ``"${reason}"``\n\n` +
       `To apply: https://discord.gg/vTURGtbr6E `
     );
   } catch {
